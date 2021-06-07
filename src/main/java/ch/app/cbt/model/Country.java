@@ -10,6 +10,7 @@ import java.util.Map;
 public class Country {
     private int id;
     private String name;
+    private String country;
     private double lon;
     private double lat;
 

@@ -14,7 +14,7 @@ public class CbtRouter {
 	public RouterFunction<ServerResponse> todoRoute(CbtHandler handler) {
 		return RouterFunctions.route()
 				.GET("/api/location", handler::getWeatherByLocation)
-				.GET("/api/country", handler::getWeatherByCountry)
+//				.GET("/api/country", handler::getWeatherByCountry)
 			.build();
 	}
 }
